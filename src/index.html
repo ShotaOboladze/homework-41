@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glassmorphism All in one (Community)</title>
+    <meta name="keywords" content="Front-End Develepment, Figma" />
+    <meta name="describtion" content="Homework #41" />
+    <meta name="author" content="Sh.Oboladze" />
+    <!-- favicon(author) -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="icons/favicon/site.webmanifest" />
+    <!-- END favicon(author) -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- SVG-Vector -->
+      <svg
+        class="vector abs"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="583"
+        height="636"
+        viewBox="0 0 583 636"
+        fill="none"
+      >
+        <g filter="url(#filter0_b_12_91)">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M332.982 3.44667C417.171 12.7717 483.964 70.6155 531.89 140.457C575.058 203.364 593.637 280.388 573.527 353.984C554.398 423.991 492.013 464.029 432.233 505.178C349.557 562.088 269.957 658.82 174.154 628.889C72.2306 597.046 29.397 477.839 9.14196 372.995C-10.1591 273.09 2.84522 165.813 69.9068 89.2859C133.867 16.2981 236.524 -7.23725 332.982 3.44667Z"
+            fill="url(#paint0_linear_12_91)"
+            fill-opacity="0.6"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M332.982 3.44667C417.171 12.7717 483.964 70.6155 531.89 140.457C575.058 203.364 593.637 280.388 573.527 353.984C554.398 423.991 492.013 464.029 432.233 505.178C349.557 562.088 269.957 658.82 174.154 628.889C72.2306 597.046 29.397 477.839 9.14196 372.995C-10.1591 273.09 2.84522 165.813 69.9068 89.2859C133.867 16.2981 236.524 -7.23725 332.982 3.44667Z"
+            fill="url(#pattern0)"
+            fill-opacity="0.2"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M332.982 3.44667C417.171 12.7717 483.964 70.6155 531.89 140.457C575.058 203.364 593.637 280.388 573.527 353.984C554.398 423.991 492.013 464.029 432.233 505.178C349.557 562.088 269.957 658.82 174.154 628.889C72.2306 597.046 29.397 477.839 9.14196 372.995C-10.1591 273.09 2.84522 165.813 69.9068 89.2859C133.867 16.2981 236.524 -7.23725 332.982 3.44667Z"
+            stroke="url(#paint1_linear_12_91)"
+            stroke-width="1.9"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_b_12_91"
+            x="-19.9495"
+            y="-19.9496"
+            width="622.533"
+            height="675.407"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feGaussianBlur in="BackgroundImageFix" stdDeviation="10" />
+            <feComposite
+              in2="SourceAlpha"
+              operator="in"
+              result="effect1_backgroundBlur_12_91"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_backgroundBlur_12_91"
+              result="shape"
+            />
+          </filter>
+          <pattern
+            id="pattern0"
+            patternContentUnits="objectBoundingBox"
+            width="1"
+            height="1"
+          >
+            <use
+              xlink:href="#image0_12_91"
+              transform="matrix(0.00267417 0 0 0.00245098 -0.318295 0)"
+            />
+          </pattern>
+          <linearGradient
+            id="paint0_linear_12_91"
+            x1="96.5"
+            y1="25.5"
+            x2="633.5"
+            y2="784.5"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="white" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint1_linear_12_91"
+            x1="63.5"
+            y1="-39.5"
+            x2="564"
+            y2="845.5"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0.176902" stop-color="white" />
+            <stop offset="0.857103" stop-color="white" stop-opacity="0" />
+          </linearGradient>
+          <image
+            id="image0_12_91"
+            width="612"
+            height="408"
+            xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/4QBiRXhpZgAASUkqAAgAAAACAA4BAgAsAAAAJgAAAJiCAgAIAAAAUgAAAAAAAABGcm9zdGVkIGdsYXNzIHRleHR1cmUgYmFja2dyb3VuZCBXaGl0ZSBjb2xvclBvbmdNb2pp/+EFX2h0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8APD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyI+Cgk8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgoJCTxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6SXB0YzR4bXBDb3JlPSJodHRwOi8vaXB0Yy5vcmcvc3RkL0lwdGM0eG1wQ29yZS8xLjAveG1sbnMvIiAgIHhtbG5zOkdldHR5SW1hZ2VzR0lGVD0iaHR0cDovL3htcC5nZXR0eWltYWdlcy5jb20vZ2lmdC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBsdXM9Imh0dHA6Ly9ucy51c2VwbHVzLm9yZy9sZGYveG1wLzEuMC8iICB4bWxuczppcHRjRXh0PSJodHRwOi8vaXB0Yy5vcmcvc3RkL0lwdGM0eG1wRXh0LzIwMDgtMDItMjkvIiB4bWxuczp4bXBSaWdodHM9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9yaWdodHMvIiBkYzpSaWdodHM9IlBvbmdNb2ppIiBwaG90b3Nob3A6Q3JlZGl0PSJHZXR0eSBJbWFnZXMvaVN0b2NrcGhvdG8iIEdldHR5SW1hZ2VzR0lGVDpBc3NldElEPSI0NjQ3MjcwNzIiIHhtcFJpZ2h0czpXZWJTdGF0ZW1lbnQ9Imh0dHBzOi8vd3d3LmlzdG9ja3Bob3RvLmNvbS9sZWdhbC9saWNlbnNlLWFn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"
+          />
+        </defs>
+      </svg>
+      <!-- END SVG-Vector -->
+      <!-- Elipse-ID -->
+      <div class="elipse-type-1 flex-cen abs">
+        <form action="#">
+          <button class="svg-button" type="button">
+            <!-- SVG-ID -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="55"
+              height="43"
+              viewBox="0 0 55 43"
+              fill="none"
+            >
+              <path
+                d="M50.4167 0H4.58333C2.05295 0 0 2.06362 0 4.60714V38.3929C0 40.9364 2.05295 43 4.58333 43H50.4167C52.9471 43 55 40.9364 55 38.3929V4.60714C55 2.06362 52.9471 0 50.4167 0ZM16.8056 9.21429C20.1762 9.21429 22.9167 11.969 22.9167 15.3571C22.9167 18.7453 20.1762 21.5 16.8056 21.5C13.4349 21.5 10.6944 18.7453 10.6944 15.3571C10.6944 11.969 13.4349 9.21429 16.8056 9.21429ZM27.5 31.9429C27.5 32.9603 26.5451 33.7857 25.3611 33.7857H8.25C7.06597 33.7857 6.11111 32.9603 6.11111 31.9429V30.1C6.11111 27.0478 8.98524 24.5714 12.5278 24.5714H13.0052C14.1797 25.0609 15.4592 25.3393 16.8056 25.3393C18.1519 25.3393 19.441 25.0609 20.6059 24.5714H21.0833C24.6259 24.5714 27.5 27.0478 27.5 30.1V31.9429ZM48.8889 26.875C48.8889 27.2973 48.5451 27.6429 48.125 27.6429H34.375C33.9549 27.6429 33.6111 27.2973 33.6111 26.875V25.3393C33.6111 24.917 33.9549 24.5714 34.375 24.5714H48.125C48.5451 24.5714 48.8889 24.917 48.8889 25.3393V26.875ZM48.8889 20.7321C48.8889 21.1545 48.5451 21.5 48.125 21.5H34.375C33.9549 21.5 33.6111 21.1545 33.6111 20.7321V19.1964C33.6111 18.7741 33.9549 18.4286 34.375 18.4286H48.125C48.5451 18.4286 48.8889 18.7741 48.8889 19.1964V20.7321ZM48.8889 14.5893C48.8889 15.0116 48.5451 15.3571 48.125 15.3571H34.375C33.9549 15.3571 33.6111 15.0116 33.6111 14.5893V13.0536C33.6111 12.6312 33.9549 12.2857 34.375 12.2857H48.125C48.5451 12.2857 48.8889 12.6312 48.8889 13.0536V14.5893Z"
+                fill="white"
+              />
+            </svg>
+            <!-- END SVG-ID -->
+          </button>
+        </form>
+      </div>
+      <!-- END Elipse-ID -->
+      <!-- Box-History -->
+      <div class="box-type-3 flex-col abs">
+        <div class="box-header">
+          <h3>History</h3>
+        </div>
+        <div class="box-footer">
+          <div class="box-text flex-cen">
+            <p>Myntra shoes order debited Rs. 3000. Reply if not ...</p>
+          </div>
+        </div>
+      </div>
+      <!-- END Box-History -->
+      <!-- Shopping-Card -->
+      <div class="cardbox flex-col abs">
+        <div class="cardbox-header rel">
+          <img
+            class="abs"
+            src="./img/CardHeader-background.png"
+            alt="BackgroundImageFix"
+          />
+          <h2>shopping</h2>
+        </div>
+        <div class="cardbox-footer">
+          <span>4242</span>
+          <span>4242</span>
+          <span>4242</span>
+          <span>4242</span>
+          <br /><br />
+          <span>SAURABH KUMAR</span>
+          <span>03/25</span>
+          <!-- SVG-Mastercards -->
+          <svg
+            class="abs"
+            width="78"
+            height="52"
+            viewBox="0 0 78 52"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="25.9375"
+              cy="25.9375"
+              r="25.9375"
+              transform="rotate(90 25.9375 25.9375)"
+              fill="#FF4F38"
+            />
+            <circle
+              cx="51.875"
+              cy="25.9375"
+              r="25.9375"
+              transform="rotate(90 51.875 25.9375)"
+              fill="#FFB600"
+            />
+          </svg>
+          <!-- END SVG-Mastercards -->
+        </div>
+      </div>
+      <!-- END Shopping-Card -->
+      <!-- Elipse-Android -->
+      <div class="elipse-type-2 flex-cen abs">
+        <form action="#">
+          <button class="svg-button" type="button">
+            <!-- SVG-Android -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="57"
+              height="66"
+              viewBox="0 0 57 66"
+              fill="none"
+            >
+              <path
+                d="M8.55 25.4328V42.499C8.55 44.7686 6.75391 46.5813 4.46797 46.5813C2.19687 46.5813 0 44.7539 0 42.499V25.4328C0 23.2074 2.19687 21.38 4.46797 21.38C6.70937 21.38 8.55 23.2074 8.55 25.4328ZM10.1531 48.5709C10.1531 50.9879 12.1125 52.9332 14.5469 52.9332H17.5008L17.5453 61.9379C17.5453 67.3761 25.7391 67.3319 25.7391 61.9379V52.9332H31.2609V61.9379C31.2609 67.3466 39.4992 67.3614 39.4992 61.9379V52.9332H42.4977C44.9023 52.9332 46.8617 50.9879 46.8617 48.5709V22.1316H10.1531V48.5709ZM46.9656 20.7021H9.98984C9.98984 14.3944 13.7898 8.91196 19.4305 6.05286L16.5953 0.850478C16.1797 0.128334 17.2336 -0.328532 17.5898 0.290448L20.4695 5.53704C25.65 3.25271 31.6023 3.37061 36.5453 5.53704L39.4102 0.305185C39.7812 -0.328532 40.8203 0.143072 40.4047 0.865215L37.5695 6.05286C43.1656 8.91196 46.9656 14.3944 46.9656 20.7021ZM21.6273 12.5227C21.6273 11.6826 20.9445 10.9752 20.0688 10.9752C19.2227 10.9752 18.5547 11.6826 18.5547 12.5227C18.5547 13.3627 19.2375 14.0701 20.0688 14.0701C20.9445 14.0701 21.6273 13.3627 21.6273 12.5227ZM38.4602 12.5227C38.4602 11.6826 37.7773 10.9752 36.9461 10.9752C36.0703 10.9752 35.3875 11.6826 35.3875 12.5227C35.3875 13.3627 36.0703 14.0701 36.9461 14.0701C37.7773 14.0701 38.4602 13.3627 38.4602 12.5227ZM52.532 21.38C50.2906 21.38 48.45 23.1632 48.45 25.4328V42.499C48.45 44.7686 50.2906 46.5813 52.532 46.5813C54.818 46.5813 57 44.7539 57 42.499V25.4328C57 23.1632 54.8031 21.38 52.532 21.38Z"
+                fill="white"
+              />
+            </svg>
+            <!-- END SVG-Android -->
+          </button>
+        </form>
+      </div>
+      <!-- END Elipse-Android -->
+    </header>
+    <footer>
+      <div class="elipse-type-2 abs"></div>
+      <!-- Box-Transaction -->
+      <div class="box-type-3 flex-col abs">
+        <div class="box-header">
+          <h3>Transaction Alert</h3>
+        </div>
+        <div class="box-footer">
+          <div class="box-text flex-cen">
+            <!-- SVG-RedCircle -->
+            <svg
+              class="abs"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="6"
+                cy="6"
+                r="6"
+                transform="matrix(-1 0 0 1 12 0)"
+                fill="#FF0A0A"
+              />
+            </svg>
+            <!-- END SVG-RedCircle -->
+            <p>Myntra shoes order debited Rs. 3000. Reply if not ...</p>
+          </div>
+        </div>
+      </div>
+      <!-- END Box-Transaction -->
+      <!-- Box-Calendar -->
+      <div class="box-type-1 flex-cen abs">
+        <form action="#">
+          <button class="svg-button" type="button">
+            <!-- SVG-Calendar -->
+            <svg
+              width="22"
+              height="25"
+              viewBox="0 0 22 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 22.6562C0 23.9502 1.0498 25 2.34375 25H19.5312C20.8252 25 21.875 23.9502 21.875 22.6562V9.375H0V22.6562ZM15.625 13.0859C15.625 12.7637 15.8887 12.5 16.2109 12.5H18.1641C18.4863 12.5 18.75 12.7637 18.75 13.0859V15.0391C18.75 15.3613 18.4863 15.625 18.1641 15.625H16.2109C15.8887 15.625 15.625 15.3613 15.625 15.0391V13.0859ZM15.625 19.3359C15.625 19.0137 15.8887 18.75 16.2109 18.75H18.1641C18.4863 18.75 18.75 19.0137 18.75 19.3359V21.2891C18.75 21.6113 18.4863 21.875 18.1641 21.875H16.2109C15.8887 21.875 15.625 21.6113 15.625 21.2891V19.3359ZM9.375 13.0859C9.375 12.7637 9.63867 12.5 9.96094 12.5H11.9141C12.2363 12.5 12.5 12.7637 12.5 13.0859V15.0391C12.5 15.3613 12.2363 15.625 11.9141 15.625H9.96094C9.63867 15.625 9.375 15.3613 9.375 15.0391V13.0859ZM9.375 19.3359C9.375 19.0137 9.63867 18.75 9.96094 18.75H11.9141C12.2363 18.75 12.5 19.0137 12.5 19.3359V21.2891C12.5 21.6113 12.2363 21.875 11.9141 21.875H9.96094C9.63867 21.875 9.375 21.6113 9.375 21.2891V19.3359ZM3.125 13.0859C3.125 12.7637 3.38867 12.5 3.71094 12.5H5.66406C5.98633 12.5 6.25 12.7637 6.25 13.0859V15.0391C6.25 15.3613 5.98633 15.625 5.66406 15.625H3.71094C3.38867 15.625 3.125 15.3613 3.125 15.0391V13.0859ZM3.125 19.3359C3.125 19.0137 3.38867 18.75 3.71094 18.75H5.66406C5.98633 18.75 6.25 19.0137 6.25 19.3359V21.2891C6.25 21.6113 5.98633 21.875 5.66406 21.875H3.71094C3.38867 21.875 3.125 21.6113 3.125 21.2891V19.3359ZM19.5312 3.125H17.1875V0.78125C17.1875 0.351562 16.8359 0 16.4062 0H14.8438C14.4141 0 14.0625 0.351562 14.0625 0.78125V3.125H7.8125V0.78125C7.8125 0.351562 7.46094 0 7.03125 0H5.46875C5.03906 0 4.6875 0.351562 4.6875 0.78125V3.125H2.34375C1.0498 3.125 0 4.1748 0 5.46875V7.8125H21.875V5.46875C21.875 4.1748 20.8252 3.125 19.5312 3.125Z"
+                fill="white"
+              />
+            </svg>
+            <!-- END SVG-Calendar -->
+          </button>
+        </form>
+      </div>
+      <!-- END Box-Calendar -->
+      <!-- Box-Payment-Removed -->
+      <div class="box-type-2 flex-cen abs">
+        <!-- IMG-Model -->
+        <img src="./img/Model.png" alt="Model" />
+        <!-- END IMG-Model -->
+        <div class="box-text">
+          <p>Payment Removed</p>
+          <h3>8000</h3>
+        </div>
+      </div>
+      <!-- END Box-Payment-Removed -->
+      <!-- Box-Payment-Added -->
+      <div class="box-type-2 flex-cen abs">
+        <!-- IMG-Model -->
+        <img src="./img/Model.png" alt="Model" />
+        <!-- END IMG-Model -->
+        <div class="box-text">
+          <p>Payment Added</p>
+          <h3>9000</h3>
+        </div>
+      </div>
+      <!-- END Box-Payment-Added -->
+      <!-- Box-Crown -->
+      <div class="box-type-1 flex-cen abs">
+        <form action="#">
+          <button class="svg-button" type="button">
+            <!-- SVG-Crown -->
+            <svg
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.925 25.375H5.075C4.67625 25.375 4.35 25.7828 4.35 26.2812V28.0938C4.35 28.5922 4.67625 29 5.075 29H23.925C24.3238 29 24.65 28.5922 24.65 28.0938V26.2812C24.65 25.7828 24.3238 25.375 23.925 25.375ZM26.825 7.25C25.6242 7.25 24.65 8.46777 24.65 9.96875C24.65 10.3709 24.7225 10.7447 24.8494 11.0902L21.5688 13.5484C20.8709 14.0695 19.9692 13.775 19.5659 12.8914L15.873 4.81445C16.3578 4.31602 16.675 3.56836 16.675 2.71875C16.675 1.21777 15.7008 0 14.5 0C13.2992 0 12.325 1.21777 12.325 2.71875C12.325 3.56836 12.6422 4.31602 13.127 4.81445L9.43406 12.8914C9.03078 13.775 8.12453 14.0695 7.43125 13.5484L4.15516 11.0902C4.2775 10.7504 4.35453 10.3709 4.35453 9.96875C4.35453 8.46777 3.38031 7.25 2.17953 7.25C0.97875 7.25 0 8.46777 0 9.96875C0 11.4697 0.974219 12.6875 2.175 12.6875C2.29281 12.6875 2.41063 12.6648 2.52391 12.6422L5.8 23.5625H23.2L26.4761 12.6422C26.5894 12.6648 26.7072 12.6875 26.825 12.6875C28.0258 12.6875 29 11.4697 29 9.96875C29 8.46777 28.0258 7.25 26.825 7.25Z"
+                fill="white"
+              />
+            </svg>
+            <!-- END SVG-Crown -->
+          </button>
+        </form>
+      </div>
+      <!-- END Box-Crown -->
+      <!-- Submit-button -->
+      <button class="submit-button abs">submit</button>
+      <!-- END Submit-button -->
+      <!-- Box-Payment -->
+      <div class="box-type-4 flex-col rel">
+        <!-- Elipse-Left -->
+        <div class="elipse-type-3 flex-cen abs">
+          <form action="#">
+            <button class="svg-button" type="button">
+              <!-- SVG-Left -->
+              <svg
+                width="51"
+                height="50"
+                viewBox="0 0 51 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.2027 50C11.3922 50 0.202698 38.8105 0.202698 25C0.202698 11.1895 11.3922 0 25.2027 0C39.0132 0 50.2027 11.1895 50.2027 25C50.2027 38.8105 39.0132 50 25.2027 50ZM36.8962 20.5645H25.2027V13.4173C25.2027 12.3387 23.8922 11.7944 23.1362 12.5605L11.614 24.1431C11.1402 24.6169 11.1402 25.373 11.614 25.8468L23.1362 37.4294C23.9023 38.1956 25.2027 37.6512 25.2027 36.5726V29.4355H36.8962C37.5616 29.4355 38.1059 28.8911 38.1059 28.2258V21.7742C38.1059 21.1089 37.5616 20.5645 36.8962 20.5645Z"
+                  fill="white"
+                />
+              </svg>
+              <!-- END SVG-Left -->
+            </button>
+          </form>
+        </div>
+        <!-- END Elipse-Left -->
+        <!-- Elipse-Right -->
+        <div class="elipse-type-3 flex-cen abs">
+          <form action="#">
+            <button class="svg-button" type="button">
+              <!-- SVG-Right -->
+              <svg
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 0C38.8105 0 50 11.1895 50 25C50 38.8105 38.8105 50 25 50C11.1895 50 0 38.8105 0 25C0 11.1895 11.1895 0 25 0ZM13.3065 29.4355H25V36.5827C25 37.6613 26.3105 38.2056 27.0665 37.4395L38.5887 25.8569C39.0625 25.3831 39.0625 24.627 38.5887 24.1532L27.0665 12.5706C26.3004 11.8044 25 12.3488 25 13.4274V20.5645H13.3065C12.6411 20.5645 12.0968 21.1089 12.0968 21.7742V28.2258C12.0968 28.8911 12.6411 29.4355 13.3065 29.4355Z"
+                  fill="white"
+                />
+              </svg>
+              <!-- END SVG-Right -->
+            </button>
+          </form>
+        </div>
+        <!-- END Elipse-Right -->
+        <div class="box-header">
+          <h3>PAYMENT</h3>
+          <div class="button-box flex-cen">
+            <form action="#">
+              <button class="flex-button" type="button">Credit</button>
+              <button class="flex-button" type="button">Debit</button>
+              <button class="flex-button" type="button">UPI</button>
+            </form>
+          </div>
+        </div>
+        <div class="box-footer flex-cen">
+          <!-- Credit-Card -->
+          <div class="cardbox flex-col abs">
+            <div class="cardbox-header rel">
+              <h2>Credit Card</h2>
+            </div>
+            <div class="cardbox-footer">
+              <span>4242</span>
+              <span>4242</span>
+              <span>4242</span>
+              <span>4242</span>
+              <br /><br />
+              <span>SAURABH KUMAR</span>
+              <span>03/25</span>
+              <!-- SVG-Mastercards -->
+              <svg
+                class="abs"
+                width="78"
+                height="52"
+                viewBox="0 0 78 52"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="25.9375"
+                  cy="25.9375"
+                  r="25.9375"
+                  transform="rotate(90 25.9375 25.9375)"
+                  fill="#FF4F38"
+                />
+                <circle
+                  cx="51.875"
+                  cy="25.9375"
+                  r="25.9375"
+                  transform="rotate(90 51.875 25.9375)"
+                  fill="#FFB600"
+                />
+              </svg>
+              <!-- END SVG-Mastercards -->
+            </div>
+          </div>
+          <!-- END Credit-Card -->
+        </div>
+      </div>
+      <!-- END Box-Payment -->
+      <!-- UPI-Card -->
+      <div class="cardbox flex-col abs">
+        <div class="cardbox-header rel">
+          <img
+            class="abs"
+            src="./img/CardHeader-background.png"
+            alt="BackgroundImageFix"
+          />
+          <h2>UPI</h2>
+        </div>
+        <div class="cardbox-footer">
+          <span>4242</span>
+          <span>4242</span>
+          <span>4242</span>
+          <span>4242</span>
+          <br /><br />
+          <span>SAURABH KUMAR</span>
+          <span>03/25</span>
+          <!-- SVG-Mastercards -->
+          <svg
+            class="abs"
+            width="78"
+            height="52"
+            viewBox="0 0 78 52"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="25.9375"
+              cy="25.9375"
+              r="25.9375"
+              transform="rotate(90 25.9375 25.9375)"
+              fill="#FF4F38"
+            />
+            <circle
+              cx="51.875"
+              cy="25.9375"
+              r="25.9375"
+              transform="rotate(90 51.875 25.9375)"
+              fill="#FFB600"
+            />
+          </svg>
+          <!-- END SVG-Mastercards -->
+        </div>
+      </div>
+      <!-- END UPI-Card -->
+    </footer>
+  </body>
+</html>
